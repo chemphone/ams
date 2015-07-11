@@ -32,7 +32,7 @@
 	<mvc:annotation-driven />
 	
 	<!-- 静态资源 -->
-	<mvc:resources location="/common/" mapping="/common/***" />
+	<mvc:resources location="/common/" mapping="/common/**" />
 	
 	<!-- jsp页面解析器 直接用根路径-->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

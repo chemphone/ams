@@ -10,7 +10,7 @@ public class TestController {
 	@RequestMapping("/test")
 	public String test(){
 		System.out.println("test");
-		return "/test/test";
+		return "/view/login/login";
 	}
 
 }
